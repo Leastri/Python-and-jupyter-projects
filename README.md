@@ -8,7 +8,7 @@
 ## 🧭 Overview
 
 This repository gathers all my **Python-based Jupyter notebooks** focused on:
-- Exploratory Data Analysis (EDA)
+- Data cleaning & trend visualization
 - Time Series Analysis & Classification
 - Correlation Studies & Insights
 
@@ -21,17 +21,18 @@ Each notebook is self-contained, documented, and uses real datasets to demonstra
 ### ⏱️ Time Series Analysis  
 > Understanding and classifying temporal data patterns  
 
+- **📈 Netflix Stock Price Forecasting**  
+  Forecasting closing prices using `Prophet`, including data cleaning, exploratory visualization with `matplotlib`.  
+  → [Open Notebook](https://github.com/Leastri/Python-and-jupyter-projects/blob/e33c030597de4046df971910b479a84b4e393e67/Netflix%20Stock%20Prices%20Forecast.ipynb)
+  
 - **🪶 BeetleFly Dataset Classification**  
   Shapelet-based time series classification using `stumpy` and `matplotlib`.  
   → [Open Notebook](time_series/beetlefly_classification.ipynb)
 
-- **☕ Coffee Bean Dataset**  
-  Distinguishing *Robusta* vs *Arabica* coffee beans through spectral analysis.  
-  → [Open Notebook](time_series/coffee_classification.ipynb)
 
 ---
 
-### 🎬 Exploratory Data Analysis (EDA)  
+### 🎬 Data cleaning & trend visualization  
 > Exploring patterns, relationships, and structure in diverse datasets  
 
 - **📈 Movies Dataset**  
